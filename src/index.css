@@ -100,7 +100,7 @@ a.btn {
 }
 
 a.btn:hover {
-  background-color: #ad8b34;
-  border-color: #ad8b34;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
   color: black;
 }
