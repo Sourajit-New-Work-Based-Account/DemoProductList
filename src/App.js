@@ -34,8 +34,7 @@ const App = () => {
           {/* Product details (name, description, and price) */}
           <div className='product-detail'>
             {/* Product name */}
-            <h2 className='title'>{product.name}</h2>
-  
+            <h2 className='title'>{product.name}</h2>  
             {/* Product description */}
             <p className='description'>
             {/* Remember we added a helper function at the top of the file? This regex helps render this expression into a regular string without the HTML element tags. */}
@@ -46,7 +45,7 @@ const App = () => {
             <p className='price'>{product.price.formatted_with_symbol}</p>
             <section>
             <a href={product.checkout_url.display} className='btn'>
-                        Avail This Service
+                        Avail Service
             </a>
             </section>
           </div>
