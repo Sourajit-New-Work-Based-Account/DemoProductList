@@ -42,7 +42,7 @@ const App = () => {
             </p>
   
             {/* Displays price formatted with symbol($10.00) */}
-            <p className='price'>{product.price.formatted_with_symbol}</p>
+            <h4 className='price'>{product.price.formatted_with_symbol}</h4>
             <section>
             <a href={product.checkout_url.display} className='btn'>
                         Avail Service
